@@ -33,5 +33,16 @@
     <ClCompile Include="BFS.cpp">
       <Filter>소스 파일\Data Structure</Filter>
     </ClCompile>
+    <ClCompile Include="11657 타임머신.cpp">
+      <Filter>소스 파일\BOJ</Filter>
+    </ClCompile>
+    <ClCompile Include="DFS.cpp">
+      <Filter>소스 파일\Data Structure</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="input.txt">
+      <Filter>리소스 파일</Filter>
+    </Text>
   </ItemGroup>
 </Project>
