@@ -39,6 +39,9 @@
     <ClCompile Include="DFS.cpp">
       <Filter>소스 파일\Data Structure</Filter>
     </ClCompile>
+    <ClCompile Include="binary search.cpp">
+      <Filter>소스 파일\Data Structure</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="input.txt">
