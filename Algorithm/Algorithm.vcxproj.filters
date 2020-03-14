@@ -19,11 +19,14 @@
     <Filter Include="소스 파일\Data Structure">
       <UniqueIdentifier>{47129a01-7a3a-4d83-bd3b-442c1ff4796c}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\SW Maestro">
+      <UniqueIdentifier>{28ca4521-60bd-412f-92d2-59ae83f73215}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Goorm Level">
+      <UniqueIdentifier>{918b1b5f-1e16-4710-9deb-d6e33bb08ad4}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Hello World.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="stack.cpp">
       <Filter>소스 파일\Data Structure</Filter>
     </ClCompile>
@@ -39,10 +42,25 @@
     <ClCompile Include="DFS.cpp">
       <Filter>소스 파일\Data Structure</Filter>
     </ClCompile>
-    <ClCompile Include="binary search.cpp">
+    <ClCompile Include="union-find.cpp">
       <Filter>소스 파일\Data Structure</Filter>
     </ClCompile>
-    <ClCompile Include="union-find.cpp">
+    <ClCompile Include="Dijkstra.cpp">
+      <Filter>소스 파일\Data Structure</Filter>
+    </ClCompile>
+    <ClCompile Include="Hello World.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="exampleProblem.cpp">
+      <Filter>소스 파일\SW Maestro</Filter>
+    </ClCompile>
+    <ClCompile Include="binary search.cpp">
+      <Filter>리소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="43120 길찾기%28삼각형%29.cpp">
+      <Filter>소스 파일\Goorm Level</Filter>
+    </ClCompile>
+    <ClCompile Include="LIS.cpp">
       <Filter>소스 파일\Data Structure</Filter>
     </ClCompile>
   </ItemGroup>
