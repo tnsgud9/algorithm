@@ -3,18 +3,18 @@
 #include <vector>
 
 using namespace std;
-int N;
+int n;
 vector<int> vec;
 vector<int> re;
 void input() {
-	cin >> N;
-	vec.resize(N);
-	for (int i = 0; i < N; i++) cin >> vec[i];
+	cin >> n;
+	vec.resize(n);
+	for (int i = 0; i < n; i++) cin >> vec[i];
 }
 void LIS() {
 	re.push_back(vec[0]);
 	int i = 0, j = 0;
-	for (int i = 0; i < N; i++) {
+	for (int i = 0; i < n; i++) {
 		int leng = re.size();
 		int j;
 		for (j = 0; j < leng; j++) {

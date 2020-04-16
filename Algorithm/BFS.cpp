@@ -10,16 +10,16 @@ using namespace std;
 vector<vector<int>> node;
 queue<int> que; //node의 index 저장
 vector<int> visit;
-int N;
+int n;
 
 void input() {
 	cout << "입력 받을 노드의 개수 입력 >";
-	cin >> N;
+	cin >> n;
 
-	node.resize(N + 2);
-	visit.resize(N + 2);
+	node.resize(n + 2);
+	visit.resize(n + 2);
 
-	for (int i = 0; i < N; i++) {
+	for (int i = 0; i < n; i++) {
 		int a, b;
 		cin >> a >> b;
 		node[a].push_back(b);

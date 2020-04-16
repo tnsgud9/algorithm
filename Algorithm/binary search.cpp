@@ -34,14 +34,14 @@ Found Value index (sorted array) : 3
 
 using namespace std;
 
-int N; //input Count;
+int n; //input Count;
 int F; //Find Value;
 vector<int> arr; //data
 
 void input()
 {
-	cin >> N;
-	arr.resize(N);
+	cin >> n;
+	arr.resize(n);
 	for (int i = 0; i < arr.size(); i++) {
 		cin >> arr[i];
 	}

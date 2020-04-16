@@ -19,9 +19,6 @@
     <Filter Include="소스 파일\Data Structure">
       <UniqueIdentifier>{47129a01-7a3a-4d83-bd3b-442c1ff4796c}</UniqueIdentifier>
     </Filter>
-    <Filter Include="소스 파일\SW Maestro">
-      <UniqueIdentifier>{28ca4521-60bd-412f-92d2-59ae83f73215}</UniqueIdentifier>
-    </Filter>
     <Filter Include="소스 파일\Goorm Level">
       <UniqueIdentifier>{918b1b5f-1e16-4710-9deb-d6e33bb08ad4}</UniqueIdentifier>
     </Filter>
@@ -51,17 +48,38 @@
     <ClCompile Include="Hello World.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="exampleProblem.cpp">
-      <Filter>소스 파일\SW Maestro</Filter>
-    </ClCompile>
-    <ClCompile Include="binary search.cpp">
-      <Filter>리소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="43120 길찾기%28삼각형%29.cpp">
       <Filter>소스 파일\Goorm Level</Filter>
     </ClCompile>
     <ClCompile Include="LIS.cpp">
       <Filter>소스 파일\Data Structure</Filter>
+    </ClCompile>
+    <ClCompile Include="11047 동전0.cpp">
+      <Filter>소스 파일\BOJ</Filter>
+    </ClCompile>
+    <ClCompile Include="--1931 회의실배정%28다못풀음%29.cpp">
+      <Filter>소스 파일\BOJ</Filter>
+    </ClCompile>
+    <ClCompile Include="11399 ATM.cpp">
+      <Filter>소스 파일\BOJ</Filter>
+    </ClCompile>
+    <ClCompile Include="binary search.cpp">
+      <Filter>소스 파일\Data Structure</Filter>
+    </ClCompile>
+    <ClCompile Include="5565 거스름돈.cpp">
+      <Filter>소스 파일\BOJ</Filter>
+    </ClCompile>
+    <ClCompile Include="1914 하노이의 탑.cpp">
+      <Filter>소스 파일\BOJ</Filter>
+    </ClCompile>
+    <ClCompile Include="1904 01타일.cpp">
+      <Filter>소스 파일\BOJ</Filter>
+    </ClCompile>
+    <ClCompile Include="9461 파도반 수열.cpp">
+      <Filter>소스 파일\BOJ</Filter>
+    </ClCompile>
+    <ClCompile Include="1932 정수 삼각형.cpp">
+      <Filter>소스 파일\BOJ</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

@@ -4,24 +4,24 @@
 
 using namespace std;
 
-int N;
+int n;
 vector<vector<int>> map;
 vector<vector<int>> origin;
 
 void input2() {
-	cin >> N;
-	map.resize(N+2);
+	cin >> n;
+	map.resize(n+2);
 	
 	int a;
-	for (int i = 0; i < N ; i++) {
+	for (int i = 0; i < n ; i++) {
 		for (int j = i; j >= 0; j--) {
 			cin >> a;
 		
 			map[j].push_back(a);
 		}
 	}
-	for (int i = 1; i < N; i++) {
-		for (int j = N-1; j >= i; j--) {
+	for (int i = 1; i < n; i++) {
+		for (int j = n-1; j >= i; j--) {
 			cin >> a;
 			map[j].push_back(a);
 		}
@@ -29,10 +29,10 @@ void input2() {
 }
 
 void input() {
-	cin >> N;
-	map.resize(N+1);
-	origin.resize(N+1);
-	for (int i = 0; i < N; i++)
+	cin >> n;
+	map.resize(n+1);
+	origin.resize(n+1);
+	for (int i = 0; i < n; i++)
 	{
 		for (int j = 0; j <= i; j++) {
 			int a;
@@ -44,9 +44,9 @@ void input() {
 }
 
 void dp() {
-	for (int i = 0; i < N-1; i++) {
+	for (int i = 0; i < n-1; i++) {
 		for (int j = 1; j <= i+1; j++) {
-			if (j >= N) return;
+			if (j >= n) return;
 			if (map[i][j-1] + origin[i+1][j-1] > map[i + 1][j - 1]) {
 				map[i + 1][j - 1] = origin[i+1][j-1] +  map[i][j-1];
 			}
@@ -63,7 +63,7 @@ int main() {
 
 	dp();
 
-	int max = *max_element(map[N - 1].begin(), map[N - 1].end());
+	int max = *max_element(map[n - 1].begin(), map[n - 1].end());
 	cout << max;
 	return 0;
 }

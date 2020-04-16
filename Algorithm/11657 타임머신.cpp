@@ -15,9 +15,9 @@ struct abc {
 
 vector<vector<pair<int,int>>> node;
 
-int N, M;
+int n, M;
 void input() {
-	cin >> N >> M;
+	cin >> n >> M;
 
 	node.resize(M+2, vector<pair<int, int>>());
 

@@ -17,7 +17,7 @@
 
 using namespace std;
 
-int N,M;
+int n,M;
 
 vector<int> node;
 
@@ -53,7 +53,7 @@ void findParent(int a, int b) { // 있는지 찾아내는 함수 재귀를 사용
 int main()
 {
 	freopen("input.txt", "r", stdin);
-	cin >> N >> M;
+	cin >> n >> M;
 	node.resize(M + 2);
 	for (int i = 1; i <= M; i++) node[i] = i; 
 	// node에 들어간 값은 부모를 가리킨다.
