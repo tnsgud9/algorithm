@@ -22,6 +22,9 @@
     <Filter Include="소스 파일\Goorm Level">
       <UniqueIdentifier>{918b1b5f-1e16-4710-9deb-d6e33bb08ad4}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\Practice">
+      <UniqueIdentifier>{ea8ab451-9f58-4be3-8907-c9b26bfb4602}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stack.cpp">
@@ -81,9 +84,66 @@
     <ClCompile Include="1932 정수 삼각형.cpp">
       <Filter>소스 파일\BOJ</Filter>
     </ClCompile>
+    <ClCompile Include="2579 계단 오르기.cpp">
+      <Filter>소스 파일\BOJ</Filter>
+    </ClCompile>
+    <ClCompile Include="1463 1로 만들기.cpp">
+      <Filter>소스 파일\BOJ</Filter>
+    </ClCompile>
+    <ClCompile Include="12865 평범한 배낭 %28수정필요%29.cpp">
+      <Filter>소스 파일\BOJ</Filter>
+    </ClCompile>
+    <ClCompile Include="1541 잃어버린 괄호%28결과수정%29.cpp">
+      <Filter>소스 파일\BOJ</Filter>
+    </ClCompile>
+    <ClCompile Include="1912 연속합.cpp">
+      <Filter>소스 파일\BOJ</Filter>
+    </ClCompile>
+    <ClCompile Include="43093 편안한길.cpp">
+      <Filter>소스 파일\Goorm Level</Filter>
+    </ClCompile>
+    <ClCompile Include="43201 호프만 알고리즘.cpp">
+      <Filter>소스 파일\Goorm Level</Filter>
+    </ClCompile>
+    <ClCompile Include="prac01.cpp">
+      <Filter>소스 파일\Practice</Filter>
+    </ClCompile>
+    <ClCompile Include="1712 손익분기점.cpp">
+      <Filter>소스 파일\BOJ</Filter>
+    </ClCompile>
+    <ClCompile Include="2839 설탕 배달.cpp">
+      <Filter>소스 파일\BOJ</Filter>
+    </ClCompile>
+    <ClCompile Include="2292 벌집.cpp">
+      <Filter>소스 파일\BOJ</Filter>
+    </ClCompile>
+    <ClCompile Include="1193 분수찾기.cpp">
+      <Filter>소스 파일\BOJ</Filter>
+    </ClCompile>
+    <ClCompile Include="1158 요세푸스%28채점 틀림%29.cpp">
+      <Filter>소스 파일\BOJ</Filter>
+    </ClCompile>
+    <ClCompile Include="10250 ACM 호텔.cpp">
+      <Filter>소스 파일\BOJ</Filter>
+    </ClCompile>
+    <ClCompile Include="1978 소수 찾기.cpp">
+      <Filter>소스 파일\BOJ</Filter>
+    </ClCompile>
+    <ClCompile Include="10872 팩토리얼.cpp">
+      <Filter>소스 파일\BOJ</Filter>
+    </ClCompile>
+    <ClCompile Include="2231 분해합.cpp">
+      <Filter>소스 파일\BOJ</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="input.txt">
+      <Filter>리소스 파일</Filter>
+    </Text>
+    <Text Include="output.txt">
+      <Filter>리소스 파일</Filter>
+    </Text>
+    <Text Include="number.txt">
       <Filter>리소스 파일</Filter>
     </Text>
   </ItemGroup>

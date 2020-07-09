@@ -4,27 +4,27 @@
 
 using namespace std;
 int n;
-vector<int> vec;
+vector<int> vec_origin;
 vector<int> re;
 void input() {
 	cin >> n;
-	vec.resize(n);
-	for (int i = 0; i < n; i++) cin >> vec[i];
+	vec_origin.resize(n);
+	for (int i = 0; i < n; i++) cin >> vec_origin[i];
 }
 void LIS() {
-	re.push_back(vec[0]);
+	re.push_back(vec_origin[0]);
 	int i = 0, j = 0;
 	for (int i = 0; i < n; i++) {
 		int leng = re.size();
 		int j;
 		for (j = 0; j < leng; j++) {
-			if (vec[i] <= re[j]) {
-				re[j] = vec[i];
+			if (vec_origin[i] <= re[j]) {
+				re[j] = vec_origin[i];
 				break;
 			}
 		}
 		if(j==leng)
-			re.push_back(vec[i]);
+			re.push_back(vec_origin[i]);
 
 	}
 }
