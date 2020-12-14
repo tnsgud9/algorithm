@@ -1,12 +1,26 @@
 #include <iostream>
+#include<vector>
+#include <algorithm>
 
 using namespace std;
 int N;
+vector<int> vec;
 int main() {
 	cin >> N;
-	// N Àº 1ÀÌ µÇ¾î¾ß Å»­„ÇÑ´Ù.
+	vec.resize(N+1);
+	//vec[0] ¹øÁö´Â »ç¿ëµÇÁö ¾Ê´Â´Ù. ¾Æ·¡ for¹®ÀÌ Ã³À½ ¹Ýº¹¹®À» µ¹‹š º¸¸é ¾Ë ¼ö ÀÖµíÀÌ 20¹øÁÙÀÌ³ª 21¹øÁÙ¸¸ ½ÇÇàµÈ´Ù. 
+	vec[1] = 0; // 1·Î ¸¸µå´Â°Ô ¸ñÇ¥ÀÌ±â ‹š¹®¿¡ input 1Àº 0¹ø¸¸À¸·Î 1À» ¸¸µé¼ö ÀÖ´Ù. (¿©±â °ªÀ» º¯°æÇÏ¸é NÀ¸·Î ¸¸µé±â°¡ µÈ´Ù)
 
-	if (N % 3) {}
-	if (N % 2) {}
-	N -= 1;
+	//vec¿¡ ÀúÀåµÇ´Â °ªÀº ¿¬»êÇßÀ» ¶§ ÃÖ¼Ò ¿¬»ê È½¼ö¸¦ ÀúÀåÇÑ´Ù.
+	// /2¿Í /3ÀÌ µÑ´Ù 0À¸·Î ³ª´²Áú °æ¿ì¿¡µµ ¼­·Î¸¦ ºñ±³ÇØ¾ß ÇÑ´Ù.
+	// ±×·²¶§ µÑ Áß ´©°¡ ´õ ÀÛÀº È½¼ö·Î ¿¬»êµÇ´ÂÁö ¸ð¸£±â ‹š¹®¿¡ ¼­·Î ºñ±³ÇÏ¸ç °»½ÅÇØÁØ´Ù,
+
+	// BOTTOM - UP ¹æ½ÄÀ» »ç¿ëÇØ  for¹®À» ÀÌ¿ëÇØ¼­ Ã³À½°ªºÎÅÍ ´ÙÀ½°ªÀ» °è»êÇØ ³ª°¡´Â ¹æ½ÄÀ¸·Î ¹®Á¦¸¦ Ç®¼ö ÀÖ´Ù.
+	for (int i = 2; i <= N; i++) {
+		vec[i] = vec[i - 1] + 1; 
+		if (i % 2 == 0) vec[i] = min( vec[i],vec[i / 2] + 1);
+		if (i % 3 == 0) vec[i] = min(vec[i], vec[i / 3] + 1);
+
+	}
+	cout << vec[N];
 }

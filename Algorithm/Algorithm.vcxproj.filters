@@ -141,6 +141,24 @@
     <ClCompile Include="2798 블랙잭.cpp">
       <Filter>소스 파일\BOJ</Filter>
     </ClCompile>
+    <ClCompile Include="10773 제로.cpp">
+      <Filter>소스 파일\BOJ</Filter>
+    </ClCompile>
+    <ClCompile Include="2580 스도쿠.cpp">
+      <Filter>소스 파일\BOJ</Filter>
+    </ClCompile>
+    <ClCompile Include="9663 N-Queen.cpp">
+      <Filter>소스 파일\BOJ</Filter>
+    </ClCompile>
+    <ClCompile Include="4949 균형잡힌 세상.cpp">
+      <Filter>소스 파일\BOJ</Filter>
+    </ClCompile>
+    <ClCompile Include="1149 RGB거리.cpp">
+      <Filter>소스 파일\BOJ</Filter>
+    </ClCompile>
+    <ClCompile Include="asdfasdf.cpp">
+      <Filter>소스 파일\BOJ</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="input.txt">
