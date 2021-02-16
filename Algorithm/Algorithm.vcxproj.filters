@@ -180,6 +180,36 @@
     <ClCompile Include="2020\boj.kr\2444 별 찍기 - 7.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="2020\boj.kr\1913 달팽이.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="2020\boj.kr\2231 분해합.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="2020\boj.kr\1018 체스판 다시 칠하기.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="2020\boj.kr\15649 N과 M %281%29.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="2020\boj.kr\15650 N과 M (2).cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="2020\boj.kr\15651 N과 M (3).cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="2020\boj.kr\15652 N과 M (4).cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="2020\boj.kr\15654 N과 M (5).cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="2020\boj.kr\9461 파도반 수열.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="2020\boj.kr\1904 01타일.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="input.txt">
