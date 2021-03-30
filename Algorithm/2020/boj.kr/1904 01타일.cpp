@@ -4,10 +4,11 @@ using namespace std;
 
 int main() {
 	int N;
-	vector<long long> vec = { 1,2 };
+	vector<long long> vec = {0, 1,2 };
 	cin >> N;
-	for (int i = 1; i < N; i++) {
-		vec.push_back(vec[i] + vec[i -1]);
+	for (int i = 2; i <= N; i++) {
+		vec.push_back( (vec[i] + vec[i -1])% 15746);
 	}
-	cout << vec[N-1];
+
+	cout << vec[N];
 }
