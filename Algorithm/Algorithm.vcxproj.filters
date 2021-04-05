@@ -237,13 +237,16 @@
     <ClCompile Include="2020\SW 해치웠나.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="2020\boj.kr\sw1.cpp">
+    <ClCompile Include="2020\boj.kr\e_1\10797 10부제.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="2020\boj.kr\SW2.cpp">
+    <ClCompile Include="2020\boj.kr\e_1\10156 과자.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="2020\boj.kr\SW3.cpp">
+    <ClCompile Include="2020\boj.kr\e_1\7567 그릇.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="2020\boj.kr\e_1\2525 오븐 시계.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
