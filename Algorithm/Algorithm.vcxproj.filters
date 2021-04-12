@@ -249,10 +249,16 @@
     <ClCompile Include="2021\e_1\10797 10부제.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="2021\2630 색종이 만들기.cpp">
+    <ClCompile Include="2021\boj.kr\2630 색종이 만들기.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="2021\20191 줄임말.cpp">
+    <ClCompile Include="2021\boj.kr\20191 줄임말 w.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="2021\boj.kr\17618 신기한 수.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="2021\한국정보올림피아드\17618 신기한 수.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
