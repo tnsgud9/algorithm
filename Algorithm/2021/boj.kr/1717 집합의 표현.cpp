@@ -4,39 +4,23 @@
 using namespace std;
 int N, M;
 int a, b, c;
-int reachIndex;
 
 vector<int> node;
 
-
-
-
-//노드 갱신도 시켜줘야해? 시벌 ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ
+int reachIndex;
 
 int find_parent(int n) {
 	if (node[n] == n) return n;
 	else {
-		return find_parent(node[n]);
+		int m = find_parent(node[n]);
+		node[n] = m;
+		return m;
 	}
 }
 
-void union_find(int n) {
-	if (n == reachIndex) {
-		cout << "YES\n";
-		return;
-	}
-	else {
-		if (node[n] == n) {
-			cout << "NO\n";
-			return;
-		}
-		return union_find(node[n]);
-	}
-}
 
 void union_node(int parentIndex, int childIndex) {
-	int topParentIndex = find_parent(parentIndex);
-	node[childIndex] = topParentIndex;
+	node[find_parent(parentIndex)] = find_parent(childIndex);
 }
 int main() {
 	ios_base::sync_with_stdio(false);
@@ -51,14 +35,21 @@ int main() {
 		cin >> a >> b >> c;
 
 		if (a) {
-			reachIndex = b;
-			union_find(c);
+			if (find_parent(c) == find_parent(b)) {
+				cout << "YES\n";
+			}
+			else {
+				cout << "NO\n";
+			}
+			//union_find(c);
 			//출력
 		}
 		else {
 			//정점 연결 union
 			union_node(b, c);
+
 		}
+
 	}
 
 }
