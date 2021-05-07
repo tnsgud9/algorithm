@@ -273,6 +273,9 @@
     <ClCompile Include="2021\e_2\10157 자리배정%28W%29.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="2021\e_2\2502 떡 먹는 호랑이.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="input.txt">
