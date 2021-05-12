@@ -276,6 +276,12 @@
     <ClCompile Include="2021\e_2\2502 떡 먹는 호랑이.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="2021\e_2\2563 색종이.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="2021\m_1\10801 카드게임.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="input.txt">
