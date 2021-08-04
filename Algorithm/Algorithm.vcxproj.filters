@@ -297,6 +297,12 @@
     <ClCompile Include="2021\m_3\10799 쇠막대기%28W%29.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="2021\boj.kr\11729 하노이 탑 이동 순서.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="2021\boj.kr\1929 소수 구하기.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="input.txt">
